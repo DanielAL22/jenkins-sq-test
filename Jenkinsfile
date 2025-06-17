@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Clonar') {
             steps {
-                git 'https://github.com/DanielAL22/saludoapp.git'
+                git 'https://github.com/DanielAL22/jenkins-sq-test.git'
             }
         }
 
