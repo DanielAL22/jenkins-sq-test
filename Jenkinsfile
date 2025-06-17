@@ -10,7 +10,7 @@ pipeline {
         // El nombre del servidor configurado en Jenkins > Configure System
         SONARQUBE_SERVER = 'Sonar 9.9.8'
         // Token configurado en Jenkins Credentials
-        SONAR_TOKEN = credentials('sonar-token-id')
+        SONAR_TOKEN = credentials('sonar-token-id2')
     }
 
     stages {
